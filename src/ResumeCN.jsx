@@ -84,7 +84,7 @@ export default function ResumeCN() {
             title="暑期科研项目"
             extra="商业分析与估值"
             gpa="成绩：A"
-            time="2023.7"
+            time="2023.07"
           />
         </>
       )}
@@ -196,36 +196,169 @@ export default function ResumeCN() {
         </>
       )}
 
-      {/* 其他模块占位 */}
+      {/* 项目经历 */}
       <h2 className="text-xl font-semibold flex items-center mt-6 mb-2 cursor-pointer" onClick={() => setShowProject(!showProject)}>
         <span role="img" aria-label="project" className="mr-2">📌</span> 项目经历
         <span className={`ml-2 transform transition-transform ${showProject ? "rotate-90" : "rotate-0"}`}>▶</span>
       </h2>
-      {showProject && <p className="text-sm text-gray-500">（此处待填写项目经历）</p>}
+      {showProject && (
+        <> 
+          <ExperienceItem
+            logo="/cicc.png"
+            name="中金"
+            title="量化研究团队"
+            extra="量化研究助理-项目PTA"
+            gpa="远程"
+            time="2023年7月 - 2023年10月"
+            details={[
+              "使用 SQL 进行数据准备，结合 Python 完成数据清洗，辅助分析 A 股市场的量化选股因子",
+              "参与构建择时雷达图，从流动性、宏观经济、市场估值、资金流向、技术指标与市场情绪六大维度整合指标，提出市场择时策略",
+              "协助开发量化投资策略，包括统计套利与股票交易策略",
+              "负责交易系统数据的日常维护，并复现量化交易相关文献以支持策略研究"
+            ]}
+          />     
+          <ExperienceItem
+            logo="/mcm.png"
+            name="美国大学生数学建模竞赛（MCM）2023"
+            title="特等奖提名（前0.5%-3%）"
+            extra="队长"
+            gpa=""
+            time="2023年2月 - 2023年5月"
+            details={[
+              "主导论文的开发工作，包括模型的构建与设定、算法选择、敏感性分析及模型评估",
+              "独立完成论文中所有可视化内容，包括数据可视化图表与示意性图解",
+              "组织团队开展论文撰写与讨论，分配并指导相关任务"
+            ]}
+          /> 
+          <ExperienceItem
+            logo="/js.png"
+            name="第十五届中国大学生计算机设计大赛"
+            title="中南赛区一等奖超项（前15%）"
+            extra="队长"
+            gpa=""
+            time="2022年5月"
+            details={[
+              "负责对中国碳核算数据库（CEADs）提供的数据进行清洗及分析，负责相关数据的可视化处理",
+              "参与搭建双碳BI平台和企业碳交易统筹平台，协作完成平台网页开发，完成项目移动端适配",
+              "作品链接：www.bi-carbon.com.cn"
+            ]}
+          /> 
+          <ExperienceItem
+            logo="/zuel.png"
+            name="第三十一届博文杯大学生百项实证创新基金项目"
+            title="三等奖结项"
+            extra="队长"
+            gpa=""
+            time="2020年11月 - 2020年12月"
+            details={[
+              "围绕后疫情时代城市营商环境开展调研，与团队合作分析突发公共卫生事件对城市营商环境的影响",
+              "使用 Python 爬取湖北省国有控股企业与民营企业历年应收账款回收期等财务信息，开展数据协同分析，并结合统计模型进行数据建模与处理"
+            ]}
+          /> 
+        </>
+      )}
 
       <h2 className="text-xl font-semibold flex items-center mt-6 mb-2 cursor-pointer" onClick={() => setShowStudent(!showStudent)}>
         <span role="img" aria-label="student" className="mr-2">🏫</span> 学生工作
         <span className={`ml-2 transform transition-transform ${showStudent ? "rotate-90" : "rotate-0"}`}>▶</span>
       </h2>
-      {showStudent && <p className="text-sm text-gray-500">（此处待填写学生工作）</p>}
+      {showStudent && (
+        <>
+          <ExperienceItem
+            logo="/hwfc.png"
+            name="中南财大华为财经校企俱乐部"
+            title="主席团成员"
+            extra=""
+            gpa=""
+            time="2021年4月 - 2023年7月"
+            details={[
+              "组织承办2021华为财务精英挑战赛，负责大赛初赛的宣传推广工作与俱乐部成员的分工调配",
+              "组织承办华为秋招宣讲会、圆桌会议等各项活动，进行宣发、人员调配等等工作"
+            ]}
+          /> 
+        </>
+      )}
 
       <h2 className="text-xl font-semibold flex items-center mt-6 mb-2 cursor-pointer" onClick={() => setShowSkills(!showSkills)}>
         <span role="img" aria-label="skills" className="mr-2">🧠</span> 专业技能
         <span className={`ml-2 transform transition-transform ${showSkills ? "rotate-90" : "rotate-0"}`}>▶</span>
       </h2>
-      {showSkills && <p className="text-sm text-gray-500">（此处待填写技能内容）</p>}
+      {showSkills && (
+        <>
+          <ExperienceItem
+            logo="/coding.png"
+            name="编程语言&工具"
+            details={[
+              "SQL, Python, R, C++, Java",
+              "Tableau, SPSS，Excel, E-charts"
+            ]}
+          /> 
+          <ExperienceItem
+            logo="/language.png"
+            name="语言能力"
+            details={[
+              "英语：雅思 7.5，GRE 331，CET-6",
+              "法语：日常沟通"
+            ]}
+          /> 
+          <ExperienceItem
+            logo="/certificate.png"
+            name="专业证书"
+            details={[
+              "BEC商务英语中级",
+              "ACCA国际特许公认会计师（9/13）"
+            ]}
+          /> 
+        </>
+      )}
 
       <h2 className="text-xl font-semibold flex items-center mt-6 mb-2 cursor-pointer" onClick={() => setShowHobbies(!showHobbies)}>
         <span role="img" aria-label="hobby" className="mr-2">🎨</span> 个人爱好
         <span className={`ml-2 transform transition-transform ${showHobbies ? "rotate-90" : "rotate-0"}`}>▶</span>
       </h2>
-      {showHobbies && <p className="text-sm text-gray-500">（此处待填写个人兴趣）</p>}
+      {showHobbies && (
+        <>
+          <ExperienceItem
+            logo="/trip.png"
+            name="旅行"
+            details={[
+              <div key="hobby-photos" className="grid grid-cols-3 gap-4 mt-2">
+                <img src="/hobby1.png" alt="hobby1" className="w-48 h-48 object-cover rounded-xl shadow-md" />
+                <img src="/hobby2.png" alt="hobby2" className="w-48 h-48 object-cover rounded-xl shadow-md" />
+                <img src="/hobby3.png" alt="hobby3" className="w-48 h-48 object-cover rounded-xl shadow-md" />
+              </div>
+            ]}
+          /> 
+          <ExperienceItem
+            logo="/photography.png"
+            name="摄影"
+            details={[
+              <div key="hobby-photos" className="grid grid-cols-3 gap-4 mt-2">
+                <img src="/hobby4.png" alt="hobby4" className="w-48 h-48 object-cover rounded-xl shadow-md" />
+                <img src="/hobby5.png" alt="hobby5" className="w-48 h-48 object-cover rounded-xl shadow-md" />
+                <img src="/hobby6.png" alt="hobby6" className="w-48 h-48 object-cover rounded-xl shadow-md" />
+              </div>
+            ]}
+          /> 
+        </>
+      )}
 
       <h2 className="text-xl font-semibold flex items-center mt-6 mb-2 cursor-pointer" onClick={() => setShowContact(!showContact)}>
         <span role="img" aria-label="contact" className="mr-2">📞</span> 联系方式
         <span className={`ml-2 transform transition-transform ${showContact ? "rotate-90" : "rotate-0"}`}>▶</span>
       </h2>
-      {showContact && <p className="text-sm text-gray-500">（此处待填写联系方式）</p>}
+      {showContact && (
+        <>
+          <ExperienceItem
+            logo="/contact.png"
+            details={[
+              "电话：（86）157-3572-3594",
+              "邮箱：hanyi-job@outlook.com",
+              "领英：www.linkedin.com/in/hanyi-resume"
+            ]}
+          /> 
+        </>
+      )}
     </div>
   );
 }
