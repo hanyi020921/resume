@@ -65,10 +65,10 @@ export default function ResumeEN() {
         <>
           <ExperienceItem
             logo="/ucla.png"
-            name="University of Clifornia, Los Angeles（UCLA）"
+            name="University of Clifornia, Los Angeles(UCLA)"
             title="Samueli School of Engineering"
             extra="Master of Engineering in Data Science"
-            gpa="GPA：3.77/4.0"
+            gpa="GPA: 3.77/4.0"
             time="2024.09 - present"
           />
           <ExperienceItem
@@ -76,10 +76,10 @@ export default function ResumeEN() {
             name="Zhongnan University of Economics and Law"
             title="School of Information and Engineering"
             details={[
-              "Bachelor’s Degree of Management in Big Data Management and Application",
-              "Bachelor’s Degree of Economics in Financial Engineering"
+              "Bachelor's Degree of Management in Big Data Management and Application",
+              "Bachelor's Degree of Economics in Financial Engineering"
             ]}
-            gpa="GPA：88.7%"
+            gpa="GPA: 88.7%"
             time="2020.09 - 2024.06"
           />
           <ExperienceItem
@@ -109,7 +109,7 @@ export default function ResumeEN() {
             title="Medtech - CSS Division"
             extra="Data Science Intern"
             gpa="San Jose, U.S."
-            time="Jul 2025 – present"
+            time="Jul 2025 - present"
             details={[
               <strong key="first">Participated in a manufacturing system reliability improvement project aimed at reducing production downtime and economic losses caused by system failures</strong>,
               "Extracted and preprocessed manufacturing system log data; performed data cleaning, feature extraction, and anomaly pattern detection using Python and SQL; assisted in identifying high-frequency failure patterns and process bottlenecks affecting system reliability",
@@ -123,7 +123,7 @@ export default function ResumeEN() {
             title="ISG Team"
             extra="Data Analysis Intern"
             gpa="Beijing"
-            time="Dec 2023 – May 2024"
+            time="Dec 2023 - May 2024"
             details={[
               <strong key="first">Participated in the ISG finance team’s data management and analysis project, leveraging historical data to support financial planning, product pricing, and strategic management</strong>,
               "Extracted monthly data from the database, contributed to the analysis of sales, cost, and other metrics for financial planning and reporting; responded to ad-hoc data requests; maintained and synchronized team data outputs into the database",
@@ -137,7 +137,7 @@ export default function ResumeEN() {
             title="Deloitte IBond - Risk Advisory"
             extra="Data Analysis Intern"
             gpa="Shenzhen"
-            time="Oct 2023 – Dec 2023"
+            time="Oct 2023 - Dec 2023"
             details={[
               <strong key="first">Participated in a financial risk management consulting project, building quantitative models from client transaction and account data to monitor, assess, and mitigate investment and credit risks</strong>,
               "Extracted, cleaned, and integrated multi-source financial datasets; conducted descriptive analysis and trend identification",
@@ -152,7 +152,7 @@ export default function ResumeEN() {
             title="Asset Management Team"
             extra="Market Investment Intern"
             gpa="Shanghai"
-            time="Dec 2022 – Jul 2023"
+            time="Dec 2022 - Jul 2023"
             details={[
               <strong key="first">Supported asset allocation and FOF investment management through market research, data analysis, and investment evaluation</strong>,
               "Assisted in asset timing research and strategy backtesting, including factor analysis",
@@ -167,7 +167,7 @@ export default function ResumeEN() {
             title="Advisory"
             extra="Data Analysis Intern"
             gpa="Ningbo"
-            time="Nov 2022 – Dec 2022"
+            time="Nov 2022 - Dec 2022"
             details={[
               <strong key="first">Contributed to industry research and data analysis projects by acquiring, processing, and visualizing research data for client reporting and team decision-making</strong>,
               "Collected and consolidated client industry information; participated in research data gathering and organization",
@@ -181,7 +181,7 @@ export default function ResumeEN() {
             title="Global Payment Team"
             extra="Data Analysis Intern"
             gpa="Beijing"
-            time="Jan 2022 – Jul 2022"
+            time="Jan 2022 - Jul 2022"
             details={[
               <strong key="first">Participated in cross-border transaction data analysis to support TikTok’s overseas business strategy and risk control</strong>,
               "Assisted in building automated financial data analysis templates based on SQL logic, independently developed settlement logic for selected cross-border channels, and maintained data processing templates to ensure workflow stability and output accuracy",
@@ -195,7 +195,7 @@ export default function ResumeEN() {
             title="Finance Team"
             extra="Data Analysis Intern"
             gpa="Beijing"
-            time="Jul 2021 – Aug 2021"
+            time="Jul 2021 - Aug 2021"
             details={[
               <strong key="first">Supported cross-department business data processing and workflow optimization to enhance finance and supply chain efficiency</strong>,
               "Programmed in C++ to batch-process customs declaration and related datasets, improving cross-department data verification and processing speed",
@@ -230,8 +230,8 @@ export default function ResumeEN() {
           />     
           <ExperienceItem
             logo="/mcm.png"
-            name="Mathematical Contest in Modeling (MCM) 2023"
-            title="Finalist（top 0.5%-3%）"
+            name="Mathematical Contest in Modeling(MCM) 2023"
+            title="Finalist(top 0.5%-3%)"
             extra="Captain"
             gpa=""
             time="Feb 2023 - May 2023"
@@ -243,7 +243,7 @@ export default function ResumeEN() {
           <ExperienceItem
             logo="/js.png"
             name="The 15th National College Student Computer Design Competition"
-            title="Second Price（top 15%）"
+            title="Second Price(top 15%)"
             extra="Captain"
             gpa=""
             time="May 2022"
@@ -282,7 +282,7 @@ export default function ResumeEN() {
             time="2021年4月 - 2023年7月"
             details={[
               "Organized and hosted the 2021 Huawei Financial Elite Challenge; responsible for preliminary round promotion and coordinating club member assignments.",
-              "Led the organization of Huawei’s campus recruitment events including info sessions and roundtable discussions; handled promotion, staffing, and on-site logistics."
+              "Led the organization of Huawei's campus recruitment events including info sessions and roundtable discussions; handled promotion, staffing, and on-site logistics."
             ]}
           /> 
         </>
@@ -299,23 +299,23 @@ export default function ResumeEN() {
             name="Coding"
             details={[
               "SQL, Python, R, C++, Java",
-              "Tableau, SPSS，Excel, E-charts"
+              "Tableau, SPSS, Excel, E-charts"
             ]}
           /> 
           <ExperienceItem
             logo="/language.png"
             name="Language"
             details={[
-              "Chinese：Native",
-              "English：IELTS 7.5，GRE 331，CET-6",
-              "French：Basic"
+              "Chinese: Native",
+              "English: IELTS 7.5, GRE 331, CET-6",
+              "French: Basic"
             ]}
           /> 
           <ExperienceItem
             logo="/certificate.png"
             name="Professional Certifcate"
             details={[
-              "ACCA（9/13）"
+              "ACCA(9/13)"
             ]}
           /> 
         </>
@@ -361,9 +361,9 @@ export default function ResumeEN() {
           <ExperienceItem
             logo="/contact.png"
             details={[
-              "Tele：（86）157-3572-3594; (1)310-905-1122",
-              "e-mail：hanyi-job@outlook.com",
-              "LinkedIn：www.linkedin.com/in/hanyi-resume"
+              "Tele: (86)157-3572-3594; (1)310-905-1122",
+              "e-mail: hanyi-job@outlook.com",
+              "LinkedIn: www.linkedin.com/in/hanyi-resume"
             ]}
           /> 
         </>

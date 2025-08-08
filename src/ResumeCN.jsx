@@ -296,14 +296,14 @@ export default function ResumeCN() {
             name="编程语言&工具"
             details={[
               "SQL, Python, R, C++, Java",
-              "Tableau, SPSS，Excel, E-charts"
+              "Tableau, SPSS, Excel, E-charts"
             ]}
           /> 
           <ExperienceItem
             logo="/language.png"
             name="语言能力"
             details={[
-              "英语：雅思 7.5，GRE 331，CET-6",
+              "英语：雅思 7.5, GRE 331, CET-6",
               "法语：日常沟通"
             ]}
           /> 
