@@ -359,7 +359,7 @@ export default function ResumeCN() {
             logo="/contact.png"
             details={[
               "电话：（86）157-3572-3594",
-              "邮箱：hanyi-job@outlook.com",
+              "邮箱：hanyi_job@outlook.com",
               "领英：www.linkedin.com/in/hanyi-resume"
             ]}
           /> 

@@ -363,7 +363,7 @@ export default function ResumeEN() {
             logo="/contact.png"
             details={[
               "Tele: (86)157-3572-3594; (1)310-905-1122",
-              "e-mail: hanyi-job@outlook.com",
+              "e-mail: hanyi_job@outlook.com",
               "LinkedIn: www.linkedin.com/in/hanyi-resume"
             ]}
           /> 
