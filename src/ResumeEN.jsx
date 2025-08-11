@@ -66,10 +66,10 @@ export default function ResumeEN() {
           <ExperienceItem
             logo="/ucla.png"
             name="University of Clifornia, Los Angeles(UCLA)"
-            title="Samueli School of Engineering"
+            title="Henry Samueli School of Engineering"
             extra="Master of Engineering in Data Science"
             gpa="GPA: 3.77/4.0"
-            time="2024.09 - present"
+            time="Sept 2024 - expected Dec 2025"
           />
           <ExperienceItem
             logo="/zuel.png"
@@ -80,7 +80,7 @@ export default function ResumeEN() {
               "Bachelor's Degree of Economics in Financial Engineering"
             ]}
             gpa="GPA: 88.7%"
-            time="2020.09 - 2024.06"
+            time="Sept 2020 - Jun 2024"
           />
           <ExperienceItem
             logo="/lse.png"
@@ -88,7 +88,7 @@ export default function ResumeEN() {
             title="Summer Session"
             extra="Business Analysis and Valuation"
             gpa="Level-A"
-            time="2023.07"
+            time="Jul 2023"
           />
         </>
       )}
@@ -113,7 +113,7 @@ export default function ResumeEN() {
             details={[
               <strong key="first">Participated in a manufacturing system reliability improvement project aimed at reducing production downtime and economic losses caused by system failures</strong>,
               "Extracted and processed MES log data (>2m records) using Python and SQL; performed feature engineering and anomaly detection to identify frequent failure patterns and bottlenecks",
-              "Assisted in building models using rule-based logic, Logistic Regression, Survival Analysis, and anomaly detection to predict crashes; achieved an F-1 score of 0.76, covering 38% of production lines",
+              "Assisted in building models using rule-based logic, Logistic Regression, Survival Analysis, and Anomaly Detection to predict crashes; achieved an F-1 score of 0.76, covered 38% of production lines",
               "Built interactive dashboards in Tableau/Power BI to visualize 16 preset KPIs and prediction results; delivered weekly analysis reports and recommendations to the project team"
             ]}
           />
@@ -139,11 +139,11 @@ export default function ResumeEN() {
             gpa="Shenzhen"
             time="Oct 2023 - Dec 2023"
             details={[
-              <strong key="first">Participated in a financial risk management consulting project, aiming to build quantitative models from client database records to support investment and credit risk identification and assessment</strong>,
+              <strong key="first">Participated in a financial risk management advisory project, aiming to build quantitative models from client database records to support investment and credit risk identification and assessment</strong>,
               "Extracted, cleaned, and integrated 500k+ records from 4,000+ entities across multiple financial databases; performed descriptive statistics to assist in identifying potential risk features",
               "Participated in developing financial risk models, including multi-scenario VaR models, using Python and SQL for data modeling and model validation",
               "Performed sensitivity analysis and scenario simulations based on model outputs to provide quantitative input for credit risk optimization",
-              "Contributed to building a reusable risk assessment and monitoring framework; delivered 11 structured analysis reports to support clients in designing risk mitigation plans and internal control systems"
+              "Contributed to building a reusable risk assessment and monitoring framework; delivered 11 structured analysis reports to support clients in designing risk mitigation plans and risk control systems"
             ]}
           />
           <ExperienceItem
@@ -169,8 +169,8 @@ export default function ResumeEN() {
             gpa="Ningbo"
             time="Nov 2022 - Dec 2022"
              details={[
-              <strong key="first">Participated in client industry research and team data analysis, responsible for acquiring, processing, and visualizing research data to support client reports and team decisions</strong>,
-              "Collected and consolidated 400+ client industry records; participated in gathering, organizing, and analyzing research data to support client strategic assessment",
+              <strong key="first">Participated in industry research and team data analysis, responsible for acquiring, processing, and visualizing research data to support client reports and team decisions</strong>,
+              "Collected and consolidated 400+ records from the client's industry; participated in gathering, organizing, and analyzing research data to support client strategic assessment",
               "Cleaned and structured both internal and external research datasets; created 10+ visualizations using Python and Excel to improve data interpretation efficiency",
               "Prepared weekly client reports based on KOR metrics, clearly presenting data processing logic, methods, and analysis results; ensured timely updates with team members"
             ]}
@@ -183,25 +183,25 @@ export default function ResumeEN() {
             gpa="Beijing"
             time="Jan 2022 - Jul 2022"
             details={[
-              <strong key="first">Participated in cross-border transaction data analysis to support TikTok's overseas business strategy and risk control</strong>,
+              <strong key="first">Participated in global transaction data analysis to support TikTok's overseas business strategy and risk control</strong>,
               "Built 9 SQL-based automated analysis templates and developed settlement logic for selected channels; maintained all 47 templates for accuracy and stability",
               "Analyzed transaction data and contributed to designing 14 anomaly detection rules based on transaction frequency and amount fluctuations to identify potential risk behaviors",
-              "Maintained the global transaction database and responded to data requests from 30+ global teams"
+              "Maintained the global transaction database and responded to ad-hoc data requests from 30+ global teams"
             ]}
           />
           <ExperienceItem
             logo="/chipone.png"
             name="Chipone"
             title="Finance Team"
-            extra="Data Analysis Intern"
+            extra="Project Assistance Intern"
             gpa="Beijing"
             time="Jul 2021 - Aug 2021"
             details={[
-              <strong key="first">Supported cross-department business data processing and workflow optimization to enhance finance and supply chain efficiency</strong>,
+              <strong key="first">Assisted the accounts payable team in IPO audit procedures and supported the finance department’s routine data and operational requests</strong>,
               "Developed a C++ program to batch-process customs declaration forms and other large datasets, increasing cross-department verification efficiency",
               "Participated in testing the newly launched SAP accounts payable module; documented and reported 20+ test results, and represented the team in communicating requirements with the technical department",
               "Assisted in IPO audit procedures by reviewing subsidiary tripartite confirmation letters, reconciling discrepancies between supplier records and the accounting system, and analyzing their causes",
-              "Conducted on-site research at Shenzhen branches and warehouse logistics; participated in defective inventory checks across 4 business lines, and contributed to internal control improvement proposals to address process gaps"
+              "Supported on-site research at Shenzhen branches and warehouse logistics; participated in defective inventory checks across 4 business lines, and contributed to internal control improvement proposals to address process gaps"
             ]}
           />
         </>
@@ -244,25 +244,25 @@ export default function ResumeEN() {
           <ExperienceItem
             logo="/js.png"
             name="The 15th National College Student Computer Design Competition"
-            title="Second Price(top 15%)"
+            title="Second Prize(top 15%)"
             extra="Captain"
             gpa=""
             time="May 2022"
             details={[
-              "Cleaned and analyzed data provided by the China Carbon Accounting Database, and developed the dual-carbon BI platform; created an original enterprise carbon trading coordination platform",
+              "Cleaned and analyzed data provided by the Carbon Emission Accounting Database(CEADs), and developed the carbon BI platform; created an original enterprise carbon trading coordination platform",
               "Collaborated on web development for the platform, completed mobile adaptation for the project"
             ]}
           /> 
           <ExperienceItem
             logo="/zuel.png"
             name="The 31th 'Bowen Cup' 100 Empirical Innovation Fund Projects"
-            title="Third Price"
+            title="Third Prize"
             extra="Team Member"
             gpa=""
             time="Nov 2020 - Dec 2020"
             details={[
               "Conducted research on the urban business environment in the post-epidemic era; Analyzed the impact of public health emergencies on urban business situations with the team members",
-              "Used Python to collect financial information such as receivables collection period of state-owned holding enterprises and private enterprises in Hubei Province required by the subject over the years; conducted cooperative analysis of the crawled data, and utilized a variety of models for data modeling"
+              "Used Python to collect financial information such as receivables collection period of enterprises in Hubei Province required by the subject over the years; conducted cooperative analysis of the crawled data, and utilized a variety of models for data modeling"
             ]}
           /> 
         </>
@@ -282,8 +282,8 @@ export default function ResumeEN() {
             gpa=""
             time="2021年4月 - 2023年7月"
             details={[
-              "Organized and hosted the 2021 Huawei Financial Elite Challenge; responsible for preliminary round promotion and coordinating club member assignments.",
-              "Led the organization of Huawei's campus recruitment events including info sessions and roundtable discussions; handled promotion, staffing, and on-site logistics."
+              "Organized and hosted the 2021 Huawei Financial Elite Challenge; responsible for preliminary round promotion and coordinating club member assignments",
+              "Led the organization of Huawei's campus recruitment events including info sessions and roundtable discussions; handled promotion, staffing, and on-site logistics"
             ]}
           /> 
         </>
@@ -330,7 +330,7 @@ export default function ResumeEN() {
         <>
           <ExperienceItem
             logo="/trip.png"
-            name="Trips"
+            name="Travel"
             details={[
               <div key="hobby-photos" className="grid grid-cols-3 gap-4 mt-2">
                 <img src="/hobby1.png" alt="hobby1" className="w-48 h-48 object-cover rounded-xl shadow-md" />
