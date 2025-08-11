@@ -280,7 +280,7 @@ export default function ResumeEN() {
             title="Executive Committee Member"
             extra=""
             gpa=""
-            time="2021年4月 - 2023年7月"
+            time="Apr 2021 - Jul 2023"
             details={[
               "Organized and hosted the 2021 Huawei Financial Elite Challenge; responsible for preliminary round promotion and coordinating club member assignments",
               "Led the organization of Huawei's campus recruitment events including info sessions and roundtable discussions; handled promotion, staffing, and on-site logistics"
