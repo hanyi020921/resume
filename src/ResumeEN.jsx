@@ -113,7 +113,7 @@ export default function ResumeEN() {
             details={[
               <strong key="first">Participated in a manufacturing system reliability improvement project aimed at reducing production downtime and economic losses caused by system failures</strong>,
               "Extracted and preprocessed manufacturing system log data; performed data cleaning, feature extraction, and anomaly pattern detection using Python and SQL; assisted in identifying high-frequency failure patterns and process bottlenecks affecting system reliability",
-              "Contributed to model development based on historical crash data, combining rule-based methods with Logistic Regression to predict failure probability, applying Survival Analysis to estimate system uptime, and using anomaly detection algorithms to capture early warning signals, thereby improving production continuity",
+              "Contributed to model development based on historical crash data, combining rule-based methods with Logistic Regression to predict failure probability, applying Survival Analysis to estimate system uptime, and using anomaly detection algorithms to capture early warning signals, thereby improving production continuity (F-1 score: 0.76)",
               "Assisted in building interactive dashboards in Tableau and Power BI to display predefined KPIs and prediction results on demand, and regularly presented analysis outcomes and recommendations to the project team"
             ]}
           />
