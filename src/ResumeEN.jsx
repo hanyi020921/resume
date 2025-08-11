@@ -112,9 +112,9 @@ export default function ResumeEN() {
             time="Jul 2025 - present"
             details={[
               <strong key="first">Participated in a manufacturing system reliability improvement project aimed at reducing production downtime and economic losses caused by system failures</strong>,
-              "Extracted and preprocessed manufacturing system log data; performed data cleaning, feature extraction, and anomaly pattern detection using Python and SQL; assisted in identifying high-frequency failure patterns and process bottlenecks affecting system reliability",
-              "Contributed to model development based on historical crash data, combining rule-based methods with Logistic Regression to predict failure probability, applying Survival Analysis to estimate system uptime, and using anomaly detection algorithms to capture early warning signals, thereby improving production continuity (F-1 score: 0.76)",
-              "Assisted in building interactive dashboards in Tableau and Power BI to display predefined KPIs and prediction results on demand, and regularly presented analysis outcomes and recommendations to the project team"
+              "Extracted and processed MES log data (>2m records) using Python and SQL; performed feature engineering and anomaly detection to identify frequent failure patterns and bottlenecks",
+              "Assisted in building models using rule-based logic, Logistic Regression, Survival Analysis, and anomaly detection to predict crashes; achieved an F-1 score of 0.76, covering 38% of production lines",
+              "Built interactive dashboards in Tableau/Power BI to visualize 16 preset KPIs and prediction results; delivered weekly analysis reports and recommendations to the project team"
             ]}
           />
           <ExperienceItem
@@ -125,10 +125,10 @@ export default function ResumeEN() {
             gpa="Beijing"
             time="Dec 2023 - May 2024"
             details={[
-              <strong key="first">Participated in the ISG finance team’s data management and analysis project, leveraging historical data to support financial planning, product pricing, and strategic management</strong>,
-              "Extracted monthly data from the database, contributed to the analysis of sales, cost, and other metrics for financial planning and reporting; responded to ad-hoc data requests; maintained and synchronized team data outputs into the database",
-              "Identified relevant fields and historical data from the database, coordinated with other teams to gather required information, and improved and reconstructed the existing five-year planning model; generated a new five-year plan to support cost forecasting, product pricing, and other strategic decisions",
-              "Created static and dynamic visualizations using Python and VBA to present analytical results in a clear and intuitive way"
+              <strong key="first">Participated in the ISG finance team's data management, analysis and application project</strong>,
+              "Extracted and analyzed monthly sales, cost, and related metrics from the database; updated results into the team’s system with 100% accuracy and responded to ad-hoc data requests",
+              "Integrated 7 years of historical data and added 4 new predictors to the existing five-year planning model, producing updated forecasts for 10+ business units’ cost projections and pricing strategies",
+              "Created static and dynamic visualizations in Python and VBA to present results clearly"
             ]}
           />
           <ExperienceItem
@@ -139,11 +139,11 @@ export default function ResumeEN() {
             gpa="Shenzhen"
             time="Oct 2023 - Dec 2023"
             details={[
-              <strong key="first">Participated in a financial risk management consulting project, building quantitative models from client transaction and account data to monitor, assess, and mitigate investment and credit risks</strong>,
-              "Extracted, cleaned, and integrated multi-source financial datasets; conducted descriptive analysis and trend identification",
-              "Developed financial risk models, including VaR and other quantitative approaches, using Python, SQL, and R for feature engineering and model validation",
-              "Performed sensitivity analysis and scenario simulations to support credit and portfolio risk optimization",
-              "Contributed to a reusable risk assessment framework and delivered structured reports and visualizations to support client strategy and internal control design"
+              <strong key="first">Participated in a financial risk management consulting project, aiming to build quantitative models from client database records to support investment and credit risk identification and assessment</strong>,
+              "Extracted, cleaned, and integrated 500k+ records from 4,000+ entities across multiple financial databases; performed descriptive statistics to assist in identifying potential risk features",
+              "Participated in developing financial risk models, including multi-scenario VaR models, using Python and SQL for data modeling and model validation",
+              "Performed sensitivity analysis and scenario simulations based on model outputs to provide quantitative input for credit risk optimization",
+              "Contributed to building a reusable risk assessment and monitoring framework; delivered 11 structured analysis reports to support clients in designing risk mitigation plans and internal control systems"
             ]}
           />
           <ExperienceItem
@@ -154,11 +154,11 @@ export default function ResumeEN() {
             gpa="Shanghai"
             time="Dec 2022 - Jul 2023"
             details={[
-              <strong key="first">Supported asset allocation and FOF investment management through market research, data analysis, and investment evaluation</strong>,
-              "Assisted in asset timing research and strategy backtesting, including factor analysis",
-              "Maintained and updated the FOF asset database; tracked and summarized returns of invested financial products",
-              "Coordinated with underlying asset management teams to verify and obtain data; produced weekly comparative asset analysis reports",
-              "Participated in due diligence and roadshows, preparing evaluation reports with recommendations"
+              <strong key="first">Participated in asset allocation and FOF investment management, covering market research, data analysis, and investment evaluation</strong>,
+              "Assisted in asset timing research and strategy backtesting; used Python and Wind data to identify highly correlated factors and analyze historical performance over the past 5 years",
+              "Maintained and updated the FOF asset database; tracked and summarized the performance of 40+ invested financial products; produced weekly comparative analysis reports",
+              "Coordinated with underlying asset management teams to verify and update asset information during the internship, ensuring accuracy and timeliness of portfolio data",
+              "Participated in due diligence and roadshows; independently prepared 20+ due diligence reports with recommendations, 3 of which were approved and implemented"
             ]}
           />
           <ExperienceItem
@@ -168,11 +168,11 @@ export default function ResumeEN() {
             extra="Data Analysis Intern"
             gpa="Ningbo"
             time="Nov 2022 - Dec 2022"
-            details={[
-              <strong key="first">Contributed to industry research and data analysis projects by acquiring, processing, and visualizing research data for client reporting and team decision-making</strong>,
-              "Collected and consolidated client industry information; participated in research data gathering and organization",
-              "Cleaned, structured, and visualized both internal and external research data",
-              "Prepared weekly client reports based on KOR metrics, detailing data processing logic, analysis methods, and results; ensured timely updates with the team"
+             details={[
+              <strong key="first">Participated in client industry research and team data analysis, responsible for acquiring, processing, and visualizing research data to support client reports and team decisions</strong>,
+              "Collected and consolidated 400+ client industry records; participated in gathering, organizing, and analyzing research data to support client strategic assessment",
+              "Cleaned and structured both internal and external research datasets; created 10+ visualizations using Python and Excel to improve data interpretation efficiency",
+              "Prepared weekly client reports based on KOR metrics, clearly presenting data processing logic, methods, and analysis results; ensured timely updates with team members"
             ]}
           />
           <ExperienceItem
@@ -183,10 +183,10 @@ export default function ResumeEN() {
             gpa="Beijing"
             time="Jan 2022 - Jul 2022"
             details={[
-              <strong key="first">Participated in cross-border transaction data analysis to support TikTok’s overseas business strategy and risk control</strong>,
-              "Assisted in building automated financial data analysis templates based on SQL logic, independently developed settlement logic for selected cross-border channels, and maintained data processing templates to ensure workflow stability and output accuracy",
-              "Analyzed transaction data and contributed to designing anomaly detection rules based on transaction frequency and amount fluctuations to identify potential risk behaviors",
-              "Configured and maintained the cross-border transaction database, fulfilling the team’s data extraction and analysis needs"
+              <strong key="first">Participated in cross-border transaction data analysis to support TikTok's overseas business strategy and risk control</strong>,
+              "Built 9 SQL-based automated analysis templates and developed settlement logic for selected channels; maintained all 47 templates for accuracy and stability",
+              "Analyzed transaction data and contributed to designing 14 anomaly detection rules based on transaction frequency and amount fluctuations to identify potential risk behaviors",
+              "Maintained the global transaction database and responded to data requests from 30+ global teams"
             ]}
           />
           <ExperienceItem
@@ -198,10 +198,10 @@ export default function ResumeEN() {
             time="Jul 2021 - Aug 2021"
             details={[
               <strong key="first">Supported cross-department business data processing and workflow optimization to enhance finance and supply chain efficiency</strong>,
-              "Programmed in C++ to batch-process customs declaration and related datasets, improving cross-department data verification and processing speed",
-              "Participated in testing the newly launched SAP accounts payable module; documented and communicated test feedback to technical teams",
-              "Assisted in audit procedures, reconciling tripartite records and analyzing discrepancies between supplier and accounting system data",
-              "Conducted on-site research at Shenzhen branches and warehouse logistics; participated in defective inventory checks and proposed process improvements"
+              "Developed a C++ program to batch-process customs declaration forms and other large datasets, increasing cross-department verification efficiency",
+              "Participated in testing the newly launched SAP accounts payable module; documented and reported 20+ test results, and represented the team in communicating requirements with the technical department",
+              "Assisted in IPO audit procedures by reviewing subsidiary tripartite confirmation letters, reconciling discrepancies between supplier records and the accounting system, and analyzing their causes",
+              "Conducted on-site research at Shenzhen branches and warehouse logistics; participated in defective inventory checks across 4 business lines, and contributed to internal control improvement proposals to address process gaps"
             ]}
           />
         </>
@@ -222,11 +222,12 @@ export default function ResumeEN() {
             gpa="Remote"
             time="Jul 2023 - Oct 2023"
             details={[
-              "Performed data preparation using SQL and data cleaning via Python to facilitate coding analysis, to identify quantitative stock selection factors of A-share stock market",
-              "Participated in developing timing radar charts, synthesizing multiple indicators under six dimensions including liquidity, macroeconomics, market valuation, capital flows, technical indicators, and market sentiment, to propose timing strategies for the equity market",
-              "Supported in development of quantitative investment strategies (statistical arbitrage and stock trading)",
-              "Conducted data maintenance for trading system data; reproduced papers in quantitative trading"
+              "Performed data preparation using SQL and cleaned 400,000 historical A-share market records with Python to analyze the effectiveness of 6 quantitative stock selection factors",
+              "Participated in developing a market-timing radar chart, integrating indicators across six dimensions—liquidity, macroeconomics, market valuation, capital flows, technical indicators, and market sentiment—to help propose timing strategies",
+              "Assisted in developing quantitative investment strategies, including statistical arbitrage and stock trading, achieving a backtested Sharpe ratio improvement to 1.31",
+              "Maintained trading system data and reproduced 7 quantitative trading research papers to support strategy development"
             ]}
+
           />     
           <ExperienceItem
             logo="/mcm.png"
