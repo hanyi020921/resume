@@ -66,7 +66,7 @@ export default function ResumeEN() {
           <ExperienceItem
             logo="/ucla.png"
             name="University of Clifornia, Los Angeles(UCLA)"
-            title="Henry Samueli School of Engineering"
+            title="The Henry Samueli School of Engineering and Applied Science"
             extra="Master of Engineering in Data Science"
             gpa="Los Angeles, USA"
             time="Sept 2024 - expected Dec 2025"
