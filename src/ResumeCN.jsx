@@ -70,14 +70,16 @@ export default function ResumeCN() {
             extra="数据科学 · 工程学硕士"
             gpa="成绩：3.77/4.0"
             time="2024.09 - 预计2025.12"
+            details={["美国洛杉矶"]}
           />
           <ExperienceItem
             logo="/zuel.png"
             name="中南财经政法大学"
             title="信息工程学院"
-            extra="大数据管理与应用+金融工程（双学士学位）"
+            extra="大数据管理与应用（辅修金融工程）"
             gpa="成绩：88.7%"
             time="2020.09 - 2024.06"
+            details={["中国武汉"]}
           />
           <ExperienceItem
             logo="/lse.png"
@@ -86,6 +88,7 @@ export default function ResumeCN() {
             extra="商业分析与估值"
             gpa="成绩：A"
             time="2023.07"
+            details={["英国伦敦"]}
           />
         </>
       )}

@@ -70,17 +70,16 @@ export default function ResumeEN() {
             extra="Master of Engineering in Data Science"
             gpa="GPA: 3.77/4.0"
             time="Sept 2024 - expected Dec 2025"
+            details={["Los Angeles, USA"]}
           />
           <ExperienceItem
             logo="/zuel.png"
             name="Zhongnan University of Economics and Law"
             title="School of Information and Engineering"
-            details={[
-              "Bachelor's Degree of Management in Big Data Management and Application",
-              "Bachelor's Degree of Economics in Financial Engineering"
-            ]}
+            extra="Dual Bachelor's Degree in Big Data Management and Application & Financial Engineering"
             gpa="GPA: 88.7%"
             time="Sept 2020 - Jun 2024"
+            details={["Wuhan, China"]}
           />
           <ExperienceItem
             logo="/lse.png"
@@ -89,6 +88,7 @@ export default function ResumeEN() {
             extra="Business Analysis and Valuation"
             gpa="Level-A"
             time="Jul 2023"
+            details={["London, Britain"]}
           />
         </>
       )}
