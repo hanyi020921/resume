@@ -68,27 +68,27 @@ export default function ResumeEN() {
             name="University of Clifornia, Los Angeles(UCLA)"
             title="Henry Samueli School of Engineering"
             extra="Master of Engineering in Data Science"
-            gpa="GPA: 3.77/4.0"
+            gpa="Los Angeles, USA"
             time="Sept 2024 - expected Dec 2025"
-            details={["Los Angeles, USA"]}
+            details={["GPA: 3.77/4.0"]}
           />
           <ExperienceItem
             logo="/zuel.png"
             name="Zhongnan University of Economics and Law"
             title="School of Information and Engineering"
             extra="Dual Bachelor's Degree in Big Data Management and Application & Financial Engineering"
-            gpa="GPA: 88.7%"
+            gpa="Wuhan, China"
             time="Sept 2020 - Jun 2024"
-            details={["Wuhan, China"]}
+            details={["GPA: 88.7%"]}
           />
           <ExperienceItem
             logo="/lse.png"
             name="The London School of Economics and Political Science"
             title="Summer Session"
             extra="Business Analysis and Valuation"
-            gpa="Level-A"
+            gpa="London, Britain"
             time="Jul 2023"
-            details={["London, Britain"]}
+            details={["Level-A"]}
           />
         </>
       )}
