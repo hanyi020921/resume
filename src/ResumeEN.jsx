@@ -364,7 +364,8 @@ export default function ResumeEN() {
             details={[
               "Tele: (86)157-3572-3594; (1)310-905-1122",
               "e-mail: hanyi_job@outlook.com",
-              "LinkedIn: www.linkedin.com/in/hanyi-resume"
+              "LinkedIn: www.linkedin.com/in/hanyi-resume",
+              "Wechat: EHan_2025"
             ]}
           /> 
         </>
