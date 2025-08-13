@@ -248,7 +248,8 @@ export default function ResumeCN() {
             time="2022年5月"
             details={[
               "负责对中国碳核算数据库（CEADs）提供的数据进行清洗及分析，负责相关数据的可视化处理",
-              "参与搭建双碳BI平台和企业碳交易统筹平台，协作完成平台网页开发，完成项目移动端适配"
+              "参与搭建双碳BI平台和企业碳交易统筹平台，协作完成平台网页开发，完成项目移动端适配",
+              "作品链接：www.bi-carbon.com.cn"
             ]}
           /> 
           <ExperienceItem

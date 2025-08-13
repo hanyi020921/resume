@@ -250,7 +250,8 @@ export default function ResumeEN() {
             time="May 2022"
             details={[
               "Cleaned and analyzed data provided by the Carbon Emission Accounting Database(CEADs), and developed the carbon BI platform; created an original enterprise carbon trading coordination platform",
-              "Collaborated on web development for the platform, completed mobile adaptation for the project"
+              "Collaborated on web development for the platform, completed mobile adaptation for the project",
+              "Link: www.bi-carbon.com.cn"
             ]}
           /> 
           <ExperienceItem
